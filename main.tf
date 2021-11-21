@@ -1,6 +1,6 @@
 resource "google_compute_instance" "spcl-instance" {
   name                      = "spcl-instance"
-  machine_type              = "e2-micro"
+  machine_type              = "e2-small"
   project                   = var.project
   zone                      = var.default_zone
   allow_stopping_for_update = true
