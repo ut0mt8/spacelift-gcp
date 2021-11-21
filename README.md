@@ -1,1 +1,1 @@
-# spacelift-gcp
+# scpl-gcp
